@@ -1,0 +1,115 @@
+# BasicGrowl seeker profile
+# Loaded from same folder as com.basicGrowl.dll
+# Edit values, save file, and the mod will reload it automatically.
+# Format: Key=Value
+
+# Internal missile ID. Must match the game's prefab name exactly (required).
+PrefabName=AAM1
+
+# Display name for logs/debug only.
+WeaponName=MMR-S3
+
+# Folder containing wav files. Relative to the plugin DLL.
+FolderName=SeekerNoises
+
+# true = flares do not drive heat pitch. false = flares can affect pitch.
+FlareReject=true
+
+# Main caged growl wav file (required).
+CagedFile=Aim9Caged.wav
+
+# Uncaged growl wav file (optional).
+UnCagedFile=Aim9UnCaged.wav
+
+# Sky ambience wav file used when appropriate (optional).
+EnvSky=Aim9EnvSky.wav
+
+# Ground ambience wav file used when appropriate (optional).
+EnvGnd=Aim9EnvGnd.wav
+
+# Lowest pitch used when heat is weak.
+SeekerWeakPitch=0.9
+
+# Highest pitch used when heat is strong.
+SeekerStrongPitch=1
+
+# Heat level where pitch starts ramping from weak.
+HeatPitchMin=2
+
+# Heat level where pitch reaches strong.
+HeatPitchMax=11
+
+# How aggressively pitch reacts to heat changes.
+HeatSensitivity=2.25
+
+# Extra shape on pitch response. 1.0 is milder.
+HeatCurvePower=1.1
+
+# Heat must be at or above this to engage heat lock.
+HeatValidOnThreshold=1.1
+
+# Heat must drop below this to disengage heat lock.
+HeatValidOffThreshold=0.95
+
+# Update frequency in seconds. Lower = snappier, higher = lighter CPU.
+TickInterval=0.05
+
+# Lock strength smoothing time. Higher = slower/smoother transitions.
+LockSmoothTime=0.08
+
+# Narrow tracking field-of-view angle (degrees).
+NarrowFovDeg=10
+
+# Maximum front search cone angle (degrees).
+FrontConeDeg=150
+
+# How fast the seeker can turn (degrees per second).
+SlewRateDegPerSec=100
+
+# Angular error where tracking quality is treated as best.
+TrackErrorMinDeg=2
+
+# Angular error where tracking quality falls to zero.
+TrackErrorMaxDeg=18
+
+# Base caged volume when not locked (0 to 1).
+BaseCagedVolume=0.7
+
+# Caged volume contribution near lock (0 to 1).
+LockedCagedVolume=0.35
+
+# Maximum uncaged volume at strong lock (0 to 1).
+LockUncagedMaxVolume=0.85
+
+# Maximum environment overlay volume (0 to 1).
+EnvOverlayMaxVolume=0.45
+
+# Crossfade time when switching environment clips (seconds).
+EnvSwitchFadeTime=0.2
+
+# Flare pulse fade-in duration (seconds).
+FlarePulseFadeInSeconds=0.4
+
+# Flare pulse fade-out duration (seconds).
+FlarePulseFadeOutSeconds=0.4
+
+# How far to check for ground/sky environment context (meters).
+EnvProbeDistanceMeters=50000
+
+# If true, heat tone stays off when dynamic range cannot be computed.
+StrictHeatRangeGateWhenUnavailable=true
+
+# Minimum time between dynamic range calculations.
+RangeCalcIntervalSeconds=0.2
+
+# Distance change that forces range recalculation.
+RangeRecalcDistThresholdMeters=150
+
+# Launcher speed change that forces range recalculation.
+RangeRecalcSpeedThreshold=8
+
+# Altitude change that forces range recalculation.
+RangeRecalcAltitudeThresholdMeters=60
+
+# Relative speed change that forces range recalculation.
+RangeRecalcRelativeSpeedThreshold=12
