@@ -1,0 +1,24 @@
+{
+  "id": "com.basicGrowl",
+  "displayName": "Nurds Basic Growl",
+  "description": "IR seeker growl audio mod for Nuclear Option with profile-driven seeker behavior and configurable audio.",
+  "authors": [
+    "NurdVEVO"
+  ],
+  "urls": [
+    {
+      "name": "info",
+      "url": "https://github.com/NurdVEVO/Nurds-BasicGrowl"
+    }
+  ],
+  "artifacts": [
+    {
+      "type": "plugin",
+      "fileName": "com.basicGrowl-1.0.1.zip",
+      "downloadUrl": "https://github.com/NurdVEVO/Nurds-BasicGrowl/releases/download/1.0.1/com.basicGrowl-1.0.1.zip",
+      "gameVersion": "0.33.4",
+      "version": "1.0.1",
+      "category": "Release"
+    }
+  ]
+}
