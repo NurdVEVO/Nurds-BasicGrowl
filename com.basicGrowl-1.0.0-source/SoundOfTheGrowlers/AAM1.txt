@@ -28,7 +28,7 @@ EnvSky=Aim9EnvSky.wav
 EnvGnd=Aim9EnvGnd.wav
 
 # Lowest pitch used when heat is weak.
-SeekerWeakPitch=0.9
+SeekerWeakPitch=0.5
 
 # Highest pitch used when heat is strong.
 SeekerStrongPitch=1
