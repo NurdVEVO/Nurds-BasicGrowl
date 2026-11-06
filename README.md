@@ -18,9 +18,8 @@ IR seeker growl audio mod for Nuclear Option.
 
 # Install
 
-- Go to t
+- Go to the releases page, and download the latest version, or one compatible with your game version.
 - Delete or overwrite the older install if you want in folder `Nuclear Option\BepInEx\plugins\com.basicgrowl` or `Nuclear Option\BepInEx\plugins\Nurds_Basic_growl` depending on how the name looks.
-- Download from the 
 alternatively
 - Download from NOMM.
 
