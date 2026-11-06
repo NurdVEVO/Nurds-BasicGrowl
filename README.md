@@ -1,30 +1,32 @@
-# Nurds Basic Growl
+# Gen-Ai content warning.
+## The mod herein uses code that is entirely generative ai.
+
+# Nurd's Basic Growl
 
 IR seeker growl audio mod for Nuclear Option.
 
-## Install
+## Features
+- Embedded audio that plays from standard configs.
+- Custom audio compatibility (needs to be redone to be more user friendly)
+- Configurable missile profiles for seeker tone behaviour. (needs to be redone to be more user friendly)
+- Automatic IR missle compatibility, adding profiles for new weapons detected from weapon mods.
 
-1. Delete any old install folder for this mod from `Nuclear Option\BepInEx\plugins`.
-2. Extract `com.basicGrowl-1.0.4.zip` directly into `Nuclear Option\BepInEx\plugins`.
-3. Check that this file exists:
+## Known issues
 
-   `Nuclear Option\BepInEx\plugins\Nurds_Basic_growl\com.basicGrowl.dll`
+- Upon death, seeker can keep playing. (very annoying)
+- The parameters in the config files are confusing for some users.
 
-Do not extract the zip inside an existing mod folder.
+# Install
 
-Older builds may have used one of these folder names: `BasicGrowl`, `Basic Growl`, `basicGrowl`, `com.basicGrowl`, `SoundOfTheGrowlers`, or `SoundsOfTheGrowlers`. Delete those old folders before installing this release.
+- Go to t
+- Delete or overwrite the older install if you want in folder `Nuclear Option\BepInEx\plugins\com.basicgrowl` or `Nuclear Option\BepInEx\plugins\Nurds_Basic_growl` depending on how the name looks.
+- Download from the 
+alternatively
+- Download from NOMM.
 
-The `AAM1.txt`, `AAM3.txt`, and `SAM_IR1.txt` files next to the DLL are editable profiles. Default seeker sounds are compressed and embedded in the plugin. Compatible `.wav` files placed in `SeekerNoises` override embedded sounds with matching filenames.
+The `AAM1.txt`, `AAM3.txt`, and `SAM_IR1.txt` files next to the DLL are editable profiles. Default seeker sounds are compressed and embedded in the plugin. Compatible `.wav` files placed in `SeekerNoises` override embedded sounds with matching filenames/configured names in the respective (dot)txt file.
 
 After the game's weapon registry has loaded, the mod scans installed weapons for IR seekers without profiles. It asks before creating any additional profile files. The scan can also be run manually with **Scan for IR Missiles** in BepInEx Configuration Manager.
-
-## Build from source
-
-Set the `NUCLEAR_OPTION_ROOT` environment variable to the Nuclear Option installation directory, then run:
-
-```text
-dotnet build com.basicGrowl.csproj -c Release
-```
 
 ## License
 
