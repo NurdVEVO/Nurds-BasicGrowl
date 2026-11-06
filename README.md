@@ -13,7 +13,6 @@ IR seeker growl audio mod for Nuclear Option.
 
 ## Known issues
 
-- Upon death, seeker can keep playing. (very annoying)
 - The parameters in the config files are confusing for some users.
 
 # Install
